@@ -113,6 +113,6 @@ Of course, this project was not easy and took many versions to come to a working
 I also tried, to instead of moving the classes assigned to each element, to move each sticker id itself, this caused an infinate loop where the function would fire each line of code one by one, causing the last line of code to already have been re-written above , changing the stickers id already. This caused the colours to not change properly and overall did not work. This also meant that when a second rotation was applied it applied the effect to a sticker that had already moved, causing stickers not in the rotation to change colour instead.
 
 
-#Running the Program
+# Running the Program
 
 ### To run the program, please download all 3 files, the HTML, CSS, and Javascipt files. Open the files/folder in Visual Studio Code. In the commmand terminal type start index.html. This will open the program in a new browser. Please use Google Chrome as the program uses ES6.
