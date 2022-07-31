@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Rubix Cube</title>
+</head>
+<body>
+    <div class="scene">
+        <div class="cube">
+            <div class="face" id="face1">
+                <div id="sticker1" class="color1"></div>
+                <div id="sticker2" class="color1"></div>
+                <div id="sticker3" class="color1"></div>
+                <div id="sticker4" class="color1"></div>
+                <div id="sticker5" class="color1"></div>
+                <div id="sticker6" class="color1"></div>
+                <div id="sticker7" class="color1"></div>
+                <div id="sticker8" class="color1"></div>
+                <div id="sticker9" class="color1"></div>
+            </div>
+            <div class="face" id="face2">
+                <div id="sticker10" class="color2"></div>
+                <div id="sticker11" class="color2"></div>
+                <div id="sticker12" class="color2"></div>
+                <div id="sticker13" class="color2"></div>
+                <div id="sticker14" class="color2"></div>
+                <div id="sticker15" class="color2"></div>
+                <div id="sticker16" class="color2"></div>
+                <div id="sticker17" class="color2"></div>
+                <div id="sticker18" class="color2"></div>
+            </div>
+            <div class="face" id="face3">
+                <div id="sticker19" class="color3"></div>
+                <div id="sticker20" class="color3"></div>
+                <div id="sticker21" class="color3"></div>
+                <div id="sticker22" class="color3"></div>
+                <div id="sticker23" class="color3"></div>
+                <div id="sticker24" class="color3"></div>
+                <div id="sticker25" class="color3"></div>
+                <div id="sticker26" class="color3"></div>
+                <div id="sticker27" class="color3"></div>
+            </div>
+            <div class="face" id="face4">
+                <div id="sticker28" class="color4"></div>
+                <div id="sticker29" class="color4"></div>
+                <div id="sticker30" class="color4"></div>
+                <div id="sticker31" class="color4"></div>
+                <div id="sticker32" class="color4"></div>
+                <div id="sticker33" class="color4"></div>
+                <div id="sticker34" class="color4"></div>
+                <div id="sticker35" class="color4"></div>
+                <div id="sticker36" class="color4"></div>
+            </div>
+            <div class="face" id="face5">
+                <div id="sticker37" class="color5"></div>
+                <div id="sticker38" class="color5"></div>
+                <div id="sticker39" class="color5"></div>
+                <div id="sticker40" class="color5"></div>
+                <div id="sticker41" class="color5"></div>
+                <div id="sticker42" class="color5"></div>
+                <div id="sticker43" class="color5"></div>
+                <div id="sticker44" class="color5"></div>
+                <div id="sticker45" class="color5"></div>
+            </div>
+            <div class="face" id="face6">
+                <div id="sticker46" class="color6"></div>
+                <div id="sticker47" class="color6"></div>
+                <div id="sticker48" class="color6"></div>
+                <div id="sticker49" class="color6"></div>
+                <div id="sticker50" class="color6"></div>
+                <div id="sticker51" class="color6"></div>
+                <div id="sticker52" class="color6"></div>
+                <div id="sticker53" class="color6"></div>
+                <div id="sticker54" class="color6"></div>
+            </div>
+        </div>
+    </div>
+    <div id="control">
+        <div class="clockwise">
+            <button id="F" onclick="applyFrontClockwiseMoves()">F</button>
+            <button id="R" onclick="applyRightClockwiseMoves()">R</button>
+            <button id="U" onclick="applyUpClockwiseMoves()">U</button>
+            <button id="B" onclick="applyBackClockwiseMoves()">B</button>
+            <button id="L" onclick="applyLeftClockwiseMoves()">L</button>
+            <button id="D" onclick="applyDownClockwiseMoves()">D</button>
+        </div>
+        <div class="anti-clockwise">
+            <button id="FA" onclick="applyFrontCounterClockwiseMoves()">F'</button>
+            <button id="RA" onclick="applyRightCounterClockwiseMoves()">R'</button>
+            <button id="UA" onclick="applyUpCounterClockwiseMoves()">U'</button>
+            <button id="BA" onclick="applyBackCounterClockwiseMoves()">B'</button>
+            <button id="LA" onclick="applyLeftCounterClockwiseMoves()">L'</button>
+            <button id="DA" onclick="applyDownCounterClockwiseMoves()">D'</button>
+        </div>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>
