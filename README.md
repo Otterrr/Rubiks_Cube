@@ -115,4 +115,4 @@ I also tried, to instead of moving the classes assigned to each element, to move
 
 # Running the Program
 
-### To run the program, please download all 3 files, the HTML, CSS, and Javascipt files. Open the files/folder in Visual Studio Code. In the commmand terminal type start index.html. This will open the program in a new browser. Please use Google Chrome as the program uses ES6.
+### To run the program, please download all 3 files, the HTML, CSS, and Javascipt files. Open the files/folder in Visual Studio Code. In the commmand terminal type "start index.html". This will open the program in a new browser. Please use Google Chrome as the program uses ES6.
